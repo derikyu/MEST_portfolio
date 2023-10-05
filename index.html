@@ -6,9 +6,13 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap">
         <link rel="stylesheet" type="text/css" href="style.css"/>
-        <title>Port: 80</title>
+        <script src="actions.js"></script>
+        <title>Port:folio 8080</title>
     </head>
 <body>
+    <!-- Scroll to top button -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
     <div class="header-container">
     <h1>Welcome to <font color="#FF2626">my space.</font></br> What do want to know about me?</h1>
     <ul class="navbar">
@@ -19,7 +23,7 @@
             <a class="nav-link" href="#about">About</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#services">Skills</a>
+            <a class="nav-link" href="#skills">Skills</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="#portfolio">Portfolio</a>
@@ -34,11 +38,14 @@
 
     <a id="click"></a>
     <div class="content-card">
-        <h2 class="big-quote">“Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, accusantium incidunt. Reiciendis debitis, dignissimos perspiciatis, enim libero”</h2>
+    </br>
+        <h2 class="big-quote">“Derek is a phenomenal organiser, great networker and has been a key driving force behind the successes of the <font color="#FF2626">Ghana Tech Summit</font> 2018/19”</h2>
+        <div class="small-quote"><em>- Einstien Ntim, Global Startup Ecosystem</em></div>
     </div>
     
     <a id="about"></a>
     <h1 class="headertext" style="font-size: 100px; text-align: center;">About</h1>
+    <h2 class="body-text" style="text-align: center; font-weight: 400;">BizOps | Fintech | Open Banking</h2>
     <h2 class="body-text" style="text-align: center;">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero,
     accusantium incidunt. Reiciendis debitis, dignissimos perspiciatis, enim libero. Lorem ipsum dolor sit, amet
@@ -52,7 +59,7 @@
     <div class="achievement-container">
         <div class="achievement-list">
             <div class="achievement-item">
-                <div class="list-heading">100 years</div>
+                <div class="list-heading">+100 years</div>
                 <div class="list-subheading">experience</div>
             </div>
             <div class="achievement-item">
@@ -60,17 +67,43 @@
                 <div class="list-subheading">worked across</div>
             </div>
             <div class="achievement-item">
-                <div class="list-heading">1000 customers</div>
+                <div class="list-heading">+1000 customers</div>
                 <div class="list-subheading">onboarded</div>
             </div>
             <div class="achievement-item">
-                <div class="list-heading">1000 dollars</div>
+                <div class="list-heading">+1000 dollars</div>
                 <div class="list-subheading">saved</div>
             </div>
         </div>
     </div>
 
+    <a id="skills"></a>
+    <h1 class="headertext" style="font-size: 100px; text-align: center;">Skills</h1>
+    <div class="skills-container body-text">
+        <h2 class="skills-text" style="text-align: center; font-weight: 400;">Business Analysis Skills</h2>
+        <ul>
+            <li class="skills-item">Agile/SCRUM</li>
+            <li class="skills-item">BPMN/UML</li>
+            <li class="skills-item">Process Engineering/Automation</li>
+            <li class="skills-item">Data Analytics</li>
+        </ul>
+    </br></br>
+        <h2 class="skills-text" style="text-align: center; font-weight: 400;">Technical Skills</h2> 
+        <ul>
+            <li class="skills-item">HTML</li>
+            <li class="skills-item">CSS</li>
+            <li class="skills-item">JQuery</li>
+            <li class="skills-item">SQL</li>
+        </ul>
+    </div>
+
+    <a id="portfolio"></a>
+    <h1 class="headertext" style="font-size: 100px; text-align: center;">Portfolio</h1>
+    <h2 class="body-text" style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+        doloribus similique harum est error voluptate facilis repellat ex sequi sit non id blanditiis nulla dignissimos,
+        laborum quidem quam deserunt tenetur.Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis doloribus
+        similique harum est error voluptate facilis repellat ex sequi sit non id blanditiis nulla dignissimos, laborum
+        quidem quam deserunt tenetur.</h2>
+    </br>
 </body>
 </html>
-
-font-family: Neue Montreal, sans-serif
